@@ -172,9 +172,7 @@ const Coins = () => {
     { src: Atwallet, id: 'authentrend.com', name: 'AT.Wallet'},
     { src: Imtoken, id: 'token.im', name: 'imToken'},
     { src: Others, id: '', name: 'Others'},
-    
   ]);
-
   return (
     <div className='overflow-x-hidden'>
         <Navbar/>
