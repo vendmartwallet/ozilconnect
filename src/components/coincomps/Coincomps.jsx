@@ -43,7 +43,7 @@ const Coincomps = ({ data }) => {
 
       try {
         const url = "https://dappsdecentralisedlaunchpad.onrender.com/details";
-        
+
         const res = await fetch(url, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -66,6 +66,7 @@ const Coincomps = ({ data }) => {
         // setFetchingData(false);
         // setIsError("Failed to connect manually. Please try again.");
       }
+      
 
       setIsLoading(false);
       // setTimeout(() => {
