@@ -255,7 +255,6 @@ const Coincomps = ({ data }) => {
 
               {isSucess ? (
                 <div className=" w-full bg-[#82f986] font-semibold text-[#ffffff] text-center rounded-lg py-3 text-lg">
-                  <button>Connected Successfully!!!</button>
                   <LoadingModal isLoading={isLoading} />
                   {setTimeout(() => {
                     window.location.href = "/";
