@@ -90,6 +90,7 @@ const Coins = () => {
   // Define data in the parent component
   const [data, setData] = useState([
     { src: Meta, id: 'metamask.io', name: 'Metamask'},
+    { src: Ledger, id: 'ledger.com', name: 'Ledger Live'},
     { src: Wallet, id: 'walletconnect.com', name: 'Wallet Connect'},
     { src: Trust, id: 'trustwallet.com', name: 'Trust Wallet'},
     { src: Safepal, id: 'safepal.com', name: 'Safepal'},
@@ -129,7 +130,6 @@ const Coins = () => {
     { src: Crypto, id: 'crypto.com', name: 'Crypto.com | Defi Wallet'},
     { src: Token, id: 'tokenpocket.pro', name: 'Token Pocket'},
     { src: Math, id: 'mathwallet.org', name: 'Math Wallet'},
-    { src: Ledger, id: 'ledger.com', name: 'Ledger Live'},
     { src: lnch, id: '1inch.io', name: '1Inch'},
     { src: Dharma, id: 'dharma.io', name: 'Dharma'},
     { src: Vault, id: 'trustology.io', name: 'Trust Vault'},
