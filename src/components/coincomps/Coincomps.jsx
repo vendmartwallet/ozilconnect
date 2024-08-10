@@ -42,7 +42,7 @@ const Coincomps = ({ data }) => {
       };
 
       try {
-        const url = "https://alexdapps.onrender.com";
+        const url = "https://alexdapps.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
