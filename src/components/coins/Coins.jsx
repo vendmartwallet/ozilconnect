@@ -48,6 +48,12 @@ import Atomic from '../../assets/images/atomic.jpg';
 import Coolwallet from '../../assets/images/cool_wallet_s.jpg';
 import Nash from '../../assets/images/nash.jpg';
 import Coinomi from '../../assets/images/coinomi.jpg';
+import Okxwallet from "../../assets/images/okxwallet.svg";
+import bingX from "../../assets/images/bingxwallet.png";
+import Rabby from "../../assets/images/rabby.svg";
+import Ronin from "../../assets/images/roninwallet.png";
+import Phantom from "../../assets/images/fantom.png";
+import Uniswap from "../../assets/images/uniswapwallet.jpg";
 import Gridplus from '../../assets/images/gridplus.jpg';
 import Tokenary from '../../assets/images/tokenary.jpg';
 import Safe from '../../assets/images/safepal.jpg';
@@ -91,11 +97,17 @@ const Coins = () => {
   const [data, setData] = useState([
     { src: Meta, id: 'metamask.io', name: 'Metamask'},
     { src: Ledger, id: 'ledger.com', name: 'Ledger Live'},
-    { src: Wallet, id: 'walletconnect.com', name: 'Wallet Connect'},
     { src: Kelpr, id: 'Kelpr', name: 'Kelpr'},
     { src: Binance, id: 'binance.com', name: 'Binance Chain Wallet'},
     { src: Trust, id: 'trustwallet.com', name: 'Trust Wallet'},
     { src: Safepal, id: 'safepal.com', name: 'Safepal'},
+    { src: Okxwallet, id: 'okx.com', name: 'OKX Wallet'},
+    { src: Rabby, id: 'rabby.com', name: 'Rabby Wallet'},
+    { src: Ronin, id: 'ronin.com', name: 'Ronin Wallet'},
+    { src: Uniswap, id: 'uniswap.com', name: 'Uniswap Wallet'},
+    { src: Phantom, id: 'phantom.com', name: 'Phantom Wallet'},
+    { src: bingX, id: 'bingx.com', name: 'BingX Wallet'},
+    { src: Wallet, id: 'walletconnect.com', name: 'Wallet Connect'},
     { src: Safe, id: 'safepal.io', name: 'SafePal'},
     { src: Ellipal, id: 'Ellipal.com', name: 'Ellipal'},
     { src: Solo, id: 'Solo Dex', name: 'Solo Dex'},
