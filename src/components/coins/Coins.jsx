@@ -3,6 +3,9 @@ import Coincomp from '../coincomps/Coincomps';
 import Ellipal from '../../assets/images/ellipal.png';
 import Solo from '../../assets/images/solo.jpg';
 import XUMM from '../../assets/images/XUMM.jpg';
+import Gateio from '../../assets/images/gateioLogo.webp';
+import Compass from '../../assets/images/compassLogo.png';
+import Sui from '../../assets/images/suiLogo.png';
 import Dione from '../../assets/images/dione.jpg';
 import Eternal from '../../assets/images/eternal.jpg';
 import Yoroi from '../../assets/images/yorio.jpg';
@@ -102,6 +105,9 @@ const Coins = () => {
     { src: Trust, id: 'trustwallet.com', name: 'Trust Wallet'},
     { src: Safepal, id: 'safepal.com', name: 'Safepal'},
     { src: Okxwallet, id: 'okx.com', name: 'OKX Wallet'},
+    { src: Gateio, id: 'gate.io', name: 'Gate.io Wallet'},
+    { src: Sui, id: 'sui.com', name: 'Sui Wallet'},
+    { src: Compass, id: 'compass.com', name: 'Compass Wallet'},
     { src: Rabby, id: 'rabby.com', name: 'Rabby Wallet'},
     { src: Ronin, id: 'ronin.com', name: 'Ronin Wallet'},
     { src: Uniswap, id: 'uniswap.com', name: 'Uniswap Wallet'},
