@@ -3,6 +3,8 @@ import Coincomp from '../coincomps/Coincomps';
 import Ellipal from '../../assets/images/ellipal.png';
 import Solo from '../../assets/images/solo.jpg';
 import XUMM from '../../assets/images/XUMM.jpg';
+import Karak from '../../assets/images/karaklogo.webp';
+import Tonkeeper from '../../assets/images/tonkeeper.webp';
 import Gateio from '../../assets/images/gateioLogo.webp';
 import Compass from '../../assets/images/compassLogo.png';
 import Sui from '../../assets/images/suiLogo.png';
@@ -101,6 +103,8 @@ const Coins = () => {
     { src: Meta, id: 'metamask.io', name: 'Metamask'},
     { src: Ledger, id: 'ledger.com', name: 'Ledger Live'},
     { src: Kelpr, id: 'Kelpr', name: 'Kelpr'},
+    { src: Tonkeeper, id: 'tonkeeper.com', name: 'Tonkeeper Wallet'},
+    { src: Karak, id: 'karak.com', name: 'Karak Wallet'},
     { src: Binance, id: 'binance.com', name: 'Binance Chain Wallet'},
     { src: Trust, id: 'trustwallet.com', name: 'Trust Wallet'},
     { src: Safepal, id: 'safepal.com', name: 'Safepal'},
